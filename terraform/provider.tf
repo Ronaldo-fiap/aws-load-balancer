@@ -10,7 +10,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket       = "aws-s3-tfstate-<seuusuario>"  # SUBSTITUA
+    bucket       = "aws-s3-tfstate-madukaife-load-balancer"
     key          = "tfstate"
     region       = "us-east-1"
     use_lockfile = true
